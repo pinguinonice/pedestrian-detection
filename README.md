@@ -1,4 +1,4 @@
-# pedastrian-detector
+# pedestrian-detector
 Detects pedastrians in webcam live stream or video.
 
 Results are transformed in xy-plane using a homography.
