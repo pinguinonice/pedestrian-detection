@@ -1,10 +1,11 @@
 # pedastrian-detector
-Detects pedastrians in webcam live stream or video
-Results are transformed in xy-plane using a homography
+Detects pedastrians in webcam live stream or video.
+
+Results are transformed in xy-plane using a homography.
+
+Activity in defined area is monitored
 
 Contains 3 algorithms:
-
-
 ## Yolo v2
 Requiers:
 * download and extract [data.tar.gz](https://s3.amazonaws.com/video-analysis-demo/data.tar.gz) to source folder
@@ -16,8 +17,9 @@ Also [TownCenterXVID.avi](https://www.youtube.com/watch?v=3RCa-7VkSx8)
 Includes non-maximum suppression
 
 ## Haar features and Cascade 
-Fast but inaccurate
-Includes non-maximum suppression
+Fast but inaccurate.
+
+Includes non-maximum suppression.
 
 
 
