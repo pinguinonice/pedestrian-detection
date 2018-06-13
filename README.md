@@ -15,12 +15,22 @@ Requiers:
 
 See [YouTube](https://www.youtube.com/watch?v=T1NMpha9mFI) for Results.
 
-Also [TownCenterXVID.avi](https://www.youtube.com/watch?v=3RCa-7VkSx8)
+Also [TownCenterXVID.avi](https://youtu.be/11oC8gntF8Q)
 ## HoG and SVM
 Includes non-maximum suppression
 
+See [YouTube](https://www.youtube.com/watch?v=T1NMpha9mFI) for Results.
+
+Also [TownCenterXVID.avi](https://youtu.be/oVlLKOksvvA)
+
 ## Haar features and Cascade 
 Fast but inaccurate.
+
+See [YouTube](https://youtu.be/oCIKL3vnTAg)
+
+Also [TownCenterXVID.avi](https://youtu.be/SGiBV-dLM0g)
+
+no backwards homography yet
 
 Includes non-maximum suppression.
 
