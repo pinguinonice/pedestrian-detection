@@ -10,3 +10,10 @@ compares 3 algorithms:
 Results are transformed in xy-plane using a homography
 
 
+Required Downloads:
+### Yolo Models data
+* download and extract [data.tar.gz](https://s3.amazonaws.com/video-analysis-demo/data.tar.gz) to source folder
+
+
+
+
