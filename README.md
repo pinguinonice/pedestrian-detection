@@ -5,7 +5,7 @@ Results are transformed in xy-plane using a homography.
 
 Activity in defined area is monitored
 
-Contains 3 algorithms (they all do more or less the same):
+Contains 3 algorithms to detect pedestrians:
 ## Yolo v2
 Best results but also the slowest
 
