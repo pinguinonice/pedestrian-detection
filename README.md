@@ -10,6 +10,7 @@ Contains 3 algorithms to detect pedestrians:
 Best results but also the slowest
 
 (heavily influence by [this](https://github.com/devicehive/devicehive-video-analysis)
+
 Requiers:
 * download and extract [data.tar.gz](https://s3.amazonaws.com/video-analysis-demo/data.tar.gz) to source folder
 
