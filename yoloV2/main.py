@@ -16,21 +16,21 @@
 
 # import the necessary packages
 from __future__ import print_function
-from imutils.object_detection import non_max_suppression
 import numpy as np
 import math
 import cv2
-from cv2 import *
 from shapely.geometry import Point
 from shapely.geometry.polygon import Polygon
-import matplotlib.pyplot as plt
 import time
 import logging.config
-import pafy
 import tensorflow as tf
 from models import yolo
 from log_config import LOGGING
-from utils.general import format_predictions, find_class_by_name, is_url
+
+def find_class_by_name(name, modules):
+  """Searches the provided modules for the named class and returns it."""
+  modules = [getattr(module, name, None) for module in modules]
+  return next(a for a in modules if a)
 
 # video (1) or webcam (2)
 # 2015 Salt City 5k on surveillance camera
@@ -50,7 +50,7 @@ out = cv2.VideoWriter('../output/outputYolo.avi', cv2.VideoWriter_fourcc('M', 'J
 logging.config.dictConfig(LOGGING)
 logger = logging.getLogger('detector')
 FLAGS = tf.flags.FLAGS
-tf.flags.DEFINE_string('video', 0, 'Path to the video file.')
+tf.flags.DEFINE_string('video', "0", 'Path to the video file.')
 tf.flags.DEFINE_string('model_name', 'Yolo2Model', 'Model name to use.')
 
 
