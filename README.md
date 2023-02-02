@@ -1,4 +1,7 @@
 # pedestrian-detector
+![Demo](./demo.gif)
+
+
 Detects pedestrians in webcam live stream or video.
 
 Results are transformed in xy-plane using a homography.
